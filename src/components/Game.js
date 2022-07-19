@@ -23,10 +23,12 @@ function Game(props) {
     let doorElements = []
     for (let i = 1; i <= props.numDoors; i++) {
       doorElements.push(
-        <Door key={i} 
-              number={i} 
-              isPrizeDoor={i === prizeDoor}
-              updateResult={updateResult}/>
+        <Door 
+          key={i} 
+          number={i} 
+          isPrizeDoor={i === prizeDoor}
+          updateResult={updateResult}
+        />
       )
     }
     return doorElements
