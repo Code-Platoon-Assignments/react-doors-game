@@ -1,5 +1,7 @@
 # React: Doors Game
 
+### **Note that this project was created with `create-react-app` so the file extensions are going to be `.js` instead of `.jsx`. We have changed the scripts in `package.json` so you can still use the command `npm run dev` to start the dev server
+
 We've coded up a simple 'Choose a door' game using React. To play the game, a player must select a random door, and they win the game if they correctly choose the door that has a prize behind it (otherwise they lose).
 
 
